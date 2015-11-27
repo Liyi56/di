@@ -5,7 +5,7 @@
 ### Requirements:
 
 * requests
-* pyquey
+* pyquery
 
 
 `di2.py` 为 Python2 版本， `di3.py`为 Python3 版本
