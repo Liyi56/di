@@ -8,7 +8,7 @@ url = 'http://dict.youdao.com/fsearch?q=%s'
 try:
     html = r.get(url % os.sys.argv[1]).content
     d = pq(html)
-    if not len([print(v.text) for v in d('content')]):
+    if not len([print(v.text) for v in d('phonetic-symbol,content')]):
         print("can't find word")
 except:
     print("you need input word")
