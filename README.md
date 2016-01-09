@@ -1,4 +1,4 @@
-# Command-Line-Dict-For-English
+# di
 
 用于在命令行下查询英语单词，使用了有道的API
 
